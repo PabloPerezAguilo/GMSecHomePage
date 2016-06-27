@@ -15,6 +15,11 @@
     src: url(../fonts/impact.ttf);
 }   
 
+@font-face {
+    font-family: 'hemi-head';
+    src: url(../fonts/hemi-head.ttf);
+}
+
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -293,11 +298,15 @@ section {
 *****************************/
 
 .headerLogo{
-    display:inline-block;
+    display:inline;
     color:white;
-    font-size: 15pt;
+    font-family: 'hemi-head';
+    padding: 20px 0 0 0 ;
+}
 
-    
+.headerLogo > div  {
+     font-size: 45pt;
+    margin: 27px 0 0 0;   
 }
 
 .headerLogo img{
@@ -1030,6 +1039,8 @@ span.gmsecName{
 @media (max-width: 700px) { 
 
 
-
-
+.headerLogo > div  {
+     font-size: 34pt;
+    margin: 14px 0 0 10px;   
+}
 }
