@@ -1044,3 +1044,9 @@ span.gmsecName{
     margin: 14px 0 0 10px;   
 }
 }
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
